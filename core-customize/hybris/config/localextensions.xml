@@ -20,6 +20,7 @@
     <extension name='assistedserviceyprofileaddon' />
     <extension name='assistedserviceyprofilefacades' />
     <extension name='electronicsstore' />
+     <extension name="apparelstore" />
     <extension name='multicountrysampledataaddon' />
     <extension name='pcmbackofficesamplesaddon' />
     <extension name='pcmbackoffice' />
