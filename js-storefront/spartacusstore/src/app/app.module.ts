@@ -32,10 +32,10 @@ else {
     B2cStorefrontModule.withConfig({
       backend: occConfig.backend,
        context: {
- urlParameters: ['baseSite', 'language', 'currency'],
- baseSite: ['electronics-spa','apparel-uk-spa'],
- currency: ['USD', 'GBP',]
- },
+        currency: ['USD'],
+        language: ['en'],
+        baseSite: ['apparel-uk-spa']
+      },
       i18n: {
         resources: translations,
         chunks: translationChunksConfig,
